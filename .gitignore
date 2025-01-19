@@ -1,0 +1,20 @@
+# Sanal ortam dosyaları
+env/
+__pycache__/
+*.pyc
+
+# Veritabanı dosyaları
+*.sqlite3
+
+# Statik ve medya dosyaları (deployment sonrası oluşturulacak)
+staticfiles/
+media/
+
+# IDE ve sistem dosyaları
+.vscode/
+.DS_Store
+.idea/
+*.swp
+
+# Ortam değişkenleri ve hassas bilgiler
+.env
